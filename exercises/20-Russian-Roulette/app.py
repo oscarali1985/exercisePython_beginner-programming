@@ -9,6 +9,15 @@ def spin_chamber():
 #  DON'T CHANGE THE CODE ABOVE
 def fire_gun():
 	# YOUR CODE HERE
+    recamara = spin_chamber()
+
+    if recamara == bullet_position:
+        mensaje = "You are dead!"
+    else:
+        mensaje= "Keep playing!"
+
+    return mensaje
+
 
 
 
